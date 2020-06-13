@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>快速登录表单</title>
+		<style>
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			li{
+				list-style-type: none;
+			}
+			a{
+				text-decoration: none;
+			}
+			.content{
+				height: 600px;
+				width: 420px;
+				margin: 70px auto;
+				box-shadow: 0px 0px 5px rgba(118,118,118,0.5);
+				text-align: center;
+			}
+			.content .title{
+				height: 24px;
+				margin-bottom: 10px;
+				padding: 0px 38px 0px 38px;
+			}
+			.content .title strong{
+				font-size: 18px;
+				float: left;
+			}
+			.content .title span{
+				float: right;
+			}
+			.content .title span a{
+				color: #000000;
+			}
+			.content .logo{
+				box-shadow: none;
+				height: 120px;
+				padding: 20px 0px;
+			}
+			form .phone{
+				width: 300px;
+				height: 36px;
+				background: url(image/phone.png) no-repeat left center;
+				padding-left: 38px;
+				margin-bottom: 25px;
+				border: 1px solid #d03d3d;
+			}
+			form .lock{
+				width: 300px;
+				height: 36px;
+				background: url(image/lock.png) no-repeat left center;
+				padding-left: 38px;
+				margin-bottom: 25px;
+				border: 1px solid #d03d3d;
+			}
+			form .submit{
+				width: 340px;
+				height: 38px;
+				background-color: #d03d3d;
+				border: 0px;
+				margin-left: 38px;
+				margin-bottom: 20px;
+				color: #ffffff;
+				display: block;
+			}
+			.content .column{
+				width: 340px;
+				height: 84px;
+				margin: 0px auto;
+			}
+			.content .column .left{
+				width: 100px;
+				height: 2px;
+				margin: 40px 0px;
+				background-color: #dadada;
+				float: left;
+			}
+			.content .column .right{
+				width: 100px;
+				height: 2px;
+				margin: 40px 0px;
+				background-color: #dadada;
+				float: right;
+			}
+			.content .column p{
+				font-weight: 200;
+				margin: 30px 22px;
+				float: left;
+			}
+			.content ul{
+				width: 220px;
+				height: 64px;
+				margin: 0px auto;
+			}
+			.content ul li{
+				padding: 0px 25px;
+				float: left;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="content">
+			<div class="logo">
+				<img src="image/logo.jpg" alt="肖烟四起，为战而来"/>
+			</div>
+			<p class="title"><strong>手机号登录</strong><span><a href="#">立即注册</a></span></p>
+			<form>
+				<input type="text" placeholder="请输入账号" class="phone">
+				<input type="password" value=""/ class="lock">
+				<input type="submit" value="登录" class="submit"/> 
+				<input type="checkbox" value="记住密码" name="remember"/ class="remember">记住密码
+			</form>
+			<div class="column">
+				<div class="left"></div>
+				<p>其他登录方式</p>
+				<div class="right"></div>
+			</div>
+			<ul>
+				<li><img src="image/qq.png"/></li>
+				<li><img src="image/weixin.png"/></li>
+			</ul>
+		</div>
+	</body>
+</html>
