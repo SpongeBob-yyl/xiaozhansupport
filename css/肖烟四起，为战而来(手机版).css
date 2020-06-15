@@ -16,6 +16,18 @@
 	padding-left: 26px;
 	position: relative;
 }
+.header .music{
+	height: 32px;
+	float: left;
+}
+.header audio{
+	height: 32px;
+	padding-left: 15px;
+}
+.header div{
+	float: left;
+	padding-left: 5px;
+}
 .header .center{
 	float: right;
 	padding-right: 25px;
@@ -34,9 +46,6 @@
 	color: #000000;
 	font-weight: 300;
 	font-size: 14px;
-}
-.header div{
-	float: left;
 }
 .header .left ul{
 	height: 192px;
